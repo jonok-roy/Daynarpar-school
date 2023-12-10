@@ -1,0 +1,543 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+
+/* header part*/
+
+header{
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(18, 18, 48);
+}
+
+header h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: -6px -5px 5px red;
+    position: relative;
+    top: 25px;
+}
+
+header ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header ul li{
+    list-style-type: none;
+    font-size: 1rem;
+    position: relative;
+    top: 60px;
+}
+
+header ul li a{
+    color: rgb(0, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s;
+}
+
+header ul li a:hover{
+    color: white;
+    text-shadow: -2px -2px 3px blue;
+}
+
+
+.searchbox{
+    position: relative;
+    text-align: center;
+    top: 125px;
+}
+
+
+
+.searchbox input{
+    padding: 7px 30px;
+    font-size: 15px;
+    border: none;
+    border: 0px solid;
+    border-radius: 2px;
+}
+
+.searchbox button{
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid;
+    font-weight: bold;
+    background-color: #8a2be2;
+    cursor: pointer;
+}
+
+/* Bodypart design */
+
+.bodypart {
+    position: relative;
+    background-color: #ffdce2;
+}
+
+img{
+ width: 100%;
+}
+
+.startpart{
+    background-color: #ffdce2;
+    text-align: center;
+    padding: 10px;
+}
+
+.startpart button{
+    padding: 9px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid blue;
+    background-color: blue;
+    transition: 0.4s;
+    color: aqua;
+    font-weight: bolder;
+}
+
+.startpart button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+.startpart input{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+/* services part */
+
+.services-part{
+    width: 100%;
+    background-color: #d8e2eb;
+}
+
+.services-part h1{
+    text-align: center;
+    color: black;
+    text-shadow: -2px -3px 4px yellow;
+    position: relative;
+    top: 10px;
+}
+
+.services-part h1:hover{
+    color: blue;
+    cursor: pointer;
+    text-shadow: -4px -2px 5px red;
+}
+
+
+.s-part-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.abuot-s,.contact-s{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: #faeef9;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 5px black;
+}
+
+
+.services-part button{
+    padding: 10px 20px;
+    position: relative;
+    top: 70px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #03459c;
+    color: white;
+    transition: 0.3s;
+}
+
+.services-part button:hover{
+    background-color:  #faeef9;
+    border: 2px solid  #03459c;
+    color: black;
+}
+
+.services-part p{
+    position: relative;
+    top: 45px;
+}
+
+.services-part h2{
+    position: relative;
+    top: 30px;
+}
+
+.services-part i{
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+}
+
+.s-part-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.buy-s,.game-s{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: #faeef9;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 5px black;
+
+}
+
+
+/* teacher part  */
+
+.teacher-part{
+    background-color: #ffdce2;
+}
+
+.teacher-part h2{
+    text-align: center;
+    padding: 30px;
+}
+
+
+.teacher-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.first-teacher{
+    width: 250px;
+    height: 200px;
+    background-color: #f67de5;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px;
+    cursor: pointer;
+}
+
+.first-teacher img{
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+
+.first-teacher h3,p{
+    position: relative;
+    top: 12px;
+}
+
+.sec-teacher{
+    width: 250px;
+    height: 200px;
+    background-color: #f67de5;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px;
+    cursor: pointer;
+}
+
+.sec-teacher img{
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+
+.sec-teacher h3,p{
+    position: relative;
+    top: 12px;
+}
+
+.th-teacher{
+    width: 250px;
+    height: 200px;
+    background-color: #f67de5;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px;
+    cursor: pointer;
+}
+
+.th-teacher img{
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+
+
+.th-teacher h3,p{
+    position: relative;
+    top: 12px;
+}
+
+.for-teacher{
+    width: 250px;
+    height: 200px;
+    background-color: #f67de5;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px;
+    cursor: pointer;
+}
+
+.for-teacher img{
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+
+.for-teacher h3,p{
+    position: relative;
+    top: 12px;
+}
+
+.cover-part{
+    background-color: #252a33;
+    position: relative;
+}
+
+.cover-part img{
+}
+
+.cover-part h1{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.cover-part h3{
+    text-align: center;
+    color: rgb(201, 185, 185);
+    margin: 30px;
+    word-spacing: 2px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer h2{
+    padding: 20px 0 0 0;
+}
+
+footer .copy-icon h3{
+    padding: 12px 0;
+    color: rgb(206, 151, 151);
+}
+
+footer .copy-icon{
+    padding: 8px 0;
+    font-size: 20px;
+    color: rgb(185, 178, 178);
+}
+
+.copy{
+    color: gray;
+}
+
+
+/*  Responsibe design */
+
+@media all and (max-width:390px) {
+    .searchbox{
+        position: relative;
+        top: 80px;
+    }
+
+}
+@media all and (max-width:430px) {
+    .searchbox{
+        position: relative;
+        top: 150px;
+    }
+    header h1{
+        color: white;
+        font-size: 0.1rem;
+        text-align: center;
+        text-shadow: -6px -5px 5px red;
+        position: relative;
+        top: 90px;
+    }
+
+}
+
+@media all and (max-width:280px){
+.abuot-s,.contact-s{
+    text-align: center;
+    width: 300px;
+    height: 325px;
+    background-color: #faeef9;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 5px black;
+}
+
+.buy-s,.game-s{
+    text-align: center;
+    width: 300px;
+    height: 325px;
+    background-color: #faeef9;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 5px black;
+
+}
+
+}
+
+@media all and (max-width:1280px) {
+    header h1{
+        color: #ffffff;
+        font-size: 3rem;
+        text-align: center;
+        text-shadow: -6px -5px 5px red;
+        position: relative;
+        top: 50px;
+    }
+    header ul li{
+        list-style-type: none;
+        font-size: 1rem;
+        position: relative;
+        top: 110px;
+    }
+
+    .searchbox{
+        position: relative;
+        text-align: center;
+        top: 150px;
+    }
+
+}
+
+@media all and (max-width:1010px) {
+    header h1{
+        color: white;
+        font-size: 3.3rem;
+        text-align: center;
+        text-shadow: -6px -5px 5px red;
+        position: relative;
+        top: 60px;
+    }
+    header ul li{
+        list-style-type: none;
+        font-size: 1rem;
+        position: relative;
+        top: 85px;
+    }
+
+    .searchbox{
+        position: relative;
+        text-align: center;
+        top: 100px;
+    }
+}
+
+    @media all and (max-width:830px) {
+        header h1{
+            color: white;
+            font-size: 3rem;
+            text-align: center;
+            text-shadow: -6px -5px 5px red;
+            position: relative;
+            top: 60px;
+        }
+        header ul li{
+            list-style-type: none;
+            font-size: 1rem;
+            position: relative;
+            top: 70px;
+        }
+    
+        .searchbox{
+            position: relative;
+            text-align: center;
+            top: 90px;
+        }
+        @media all and (max-width:280px){
+            header h1{
+                color: white;
+                font-size: 2rem;
+                text-align: center;
+                text-shadow: -6px -5px 5px red;
+                position: relative;
+                top: 10px;
+            }
+            
+        header ul li{
+            list-style-type: none;
+            font-size: 0.6rem;
+            position: relative;
+            top: 65px;
+        }
+        .searchbox{
+            position: relative;
+        
+        }
+
+        }
+   
+
+
+}
+
